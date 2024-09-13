@@ -3,7 +3,7 @@ import { useState } from "react";
 import { darkTheme, lightTheme } from './utils/Themes.js';
 import Navbar from "./components/Navbar";
 import './App.css';
-import { BrowserRouter as Router} from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -15,6 +15,8 @@ import ProjectDetails from "./components/ProjectDetails";
 import Blogs from "./components/Blogs";
 import BlogDetails from "./components/BlogDetails";
 import styled from "styled-components";
+import Vlogs from "./components/Vlogs"; // Correcting the import for Vlogs
+import VlogDetails from "./components/VlogDetails"; // Import VlogDetails correctly
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -30,9 +32,10 @@ const Wrapper = styled.div`
 `;
 
 function App() {
-  const [darkMode] = useState(true);  // Removed setDarkMode since it's unused
+  const [darkMode] = useState(true);  // You can enable toggling later
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   const [openBlogModal, setOpenBlogModal] = useState({ state: false, blog: null });
+  const [openVlogModal, setOpenVlogModal] = useState({ state: false, vlog: null });
 
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
@@ -45,14 +48,20 @@ function App() {
             <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Vlogs openVlogModal={openVlogModal} setOpenVlogModal={setOpenVlogModal}/>
           <Blogs openBlogModal={openBlogModal} setOpenBlogModal={setOpenBlogModal}/>
           <Wrapper>
             <Education />
             <Contact />
           </Wrapper>
           <Footer />
+          
+          {/* Modal Components */}
           {openModal.state && (
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
+          {openVlogModal.state && (
+            <VlogDetails openVlogModal={openVlogModal} setOpenVlogModal={setOpenVlogModal}/>
           )}
           {openBlogModal.state && (
             <BlogDetails openBlogModal={openBlogModal} setOpenBlogModal={setOpenBlogModal} />

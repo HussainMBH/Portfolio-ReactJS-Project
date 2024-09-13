@@ -207,23 +207,23 @@ const index = ({ openModal, setOpenModal }) => {
             ))}
           </Tags>
           <Desc>{project?.description}</Desc>
-          {project.member && (
+          {project.developer && (
             <>
-              <Label>Members</Label>
+              <Label>Developer</Label>
               <Members>
-                {project?.member.map((member) => (
+                {project?.developer.map((developer) => (
                   <Member>
-                    <MemberImage src={member.img} />
-                    <MemberName>{member.name}</MemberName>
+                    <MemberImage src={developer.img} />
+                    <MemberName>{developer.name}</MemberName>
                     <a
-                      href={member.github}
+                      href={developer.github}
                       target="new"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
                       <GitHub />
                     </a>
                     <a
-                      href={member.linkedin}
+                      href={developer.linkedin}
                       target="new"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >

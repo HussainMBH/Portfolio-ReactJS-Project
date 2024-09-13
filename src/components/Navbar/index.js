@@ -47,6 +47,7 @@ const Navbar = () => {
           <NavLink href='#skills'>Skills</NavLink>
           <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
+          <NavLink href='#blogs'>Blogs</NavLink>
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
@@ -67,6 +68,9 @@ const Navbar = () => {
             </MobileLink>
             <MobileLink href='#projects' onClick={toggleMenu}>
               Projects
+            </MobileLink>
+            <MobileLink href='#blogs' onClick={toggleMenu}>
+              Blogs
             </MobileLink>
             <MobileLink href='#education' onClick={toggleMenu}>
               Education

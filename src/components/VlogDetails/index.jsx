@@ -63,12 +63,16 @@ const Desc = styled.div`
   }
 `;
 
-const Image = styled.img`
+const Iframe = styled.iframe`
   width: 100%;
-  object-fit: cover;
+  height: 315px;
+  border: none;
   border-radius: 12px;
   margin-top: 30px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  @media only screen and (max-width: 600px) {
+    height: 200px;
+  }
 `;
 
 const Label = styled.div`
@@ -113,6 +117,7 @@ const Members = styled.div`
     margin: 4px 6px;
   }
 `;
+
 const Member = styled.div`
   display: flex;
   align-items: center;
@@ -159,13 +164,9 @@ const Button = styled.a`
   background-color: ${({ theme }) => theme.primary};
   ${({ dull, theme }) =>
     dull &&
-    `
-      background-color: ${theme.bgLight};
-      color: ${theme.text_secondary};
-      &:hover {
-          background-color: ${({ theme }) => theme.bg + 99};
-      }
-  `}
+    `background-color: ${theme.bgLight};
+     color: ${theme.text_secondary};
+     &:hover { background-color: ${theme.bg + 99}; }`}
   cursor: pointer;
   text-decoration: none;
   transition: all 0.5s ease;
@@ -177,12 +178,12 @@ const Button = styled.a`
   }
 `;
 
-const index = ({ openBlogModal, setOpenBlogModal }) => {
-  const blog = openBlogModal?.blog;
+const Index = ({ openVlogModal, setOpenVlogModal }) => {
+  const vlog = openVlogModal?.vlog;
   return (
     <Modal
       open={true}
-      onClose={() => setOpenBlogModal({ state: false, blog: null })}
+      onClose={() => setOpenVlogModal({ state: false, vlog: null })}
     >
       <Container>
         <Wrapper>
@@ -193,34 +194,38 @@ const index = ({ openBlogModal, setOpenBlogModal }) => {
               right: "20px",
               cursor: "pointer",
             }}
-            onClick={() => setOpenBlogModal({ state: false, blog: null })}
+            onClick={() => setOpenVlogModal({ state: false, vlog: null })}
           />
-          <Image src={blog?.image} />
-          <Title>{blog?.title}</Title>
-          <Date>{blog?.date}</Date>
+          <Iframe
+            src={`https://www.youtube.com/embed/${vlog?.vloglink.split('v=')[1].split('&')[0]}`}
+            title={vlog?.title}
+            allowFullScreen
+          />
+          <Title>{vlog?.title}</Title>
+          <Date>{vlog?.date}</Date>
           <Tags>
-            {blog?.tags.map((tag, index) => (
+            {vlog?.tags.map((tag, index) => (
               <Tag key={index}>{tag}</Tag>
             ))}
           </Tags>
-          <Desc>{blog?.description}</Desc>
-          {blog.bloger && (
+          <Desc>{vlog?.description}</Desc>
+          {vlog.vloger && (
             <>
-              <Label>Bloger</Label>
+              <Label>Vloger</Label>
               <Members>
-                {blog?.bloger.map((bloger) => (
-                  <Member key={bloger.name}>
-                    <MemberImage src={bloger.img} />
-                    <MemberName>{bloger.name}</MemberName>
+                {vlog?.vloger.map((vloger) => (
+                  <Member key={vloger.name}>
+                    <MemberImage src={vloger.img} />
+                    <MemberName>{vloger.name}</MemberName>
                     <a
-                      href={bloger.github}
+                      href={vloger.github}
                       target="new"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
                       <GitHub />
                     </a>
                     <a
-                      href={bloger.linkedin}
+                      href={vloger.linkedin}
                       target="new"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
@@ -232,8 +237,8 @@ const index = ({ openBlogModal, setOpenBlogModal }) => {
             </>
           )}
           <ButtonGroup>
-            <Button dull href={blog?.bloglink} target="new">
-            Read Full Blog
+            <Button dull href={vlog?.vloglink} target="new">
+              Watch Full Video
             </Button>
           </ButtonGroup>
         </Wrapper>
@@ -242,4 +247,4 @@ const index = ({ openBlogModal, setOpenBlogModal }) => {
   );
 };
 
-export default index;
+export default Index;

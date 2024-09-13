@@ -8,12 +8,13 @@ export const Bio = {
     "doing R & D",
     "a Content Writer",
   ],
+  image: "mohamedbahirhussain.jpeg",
   description:
     "I'm passionate about distributed systems, fintech, healthcare, e-commerce, and more, with a keen interest in integrating AI to drive innovation. I'm deeply engaged with emerging technologies like AI, machine learning, and big data analytics. Continuously exploring and expanding my knowledge in these areas excites me. Let's connect and collaborate on tech discussions or projects!",
   github: "https://github.com/HussainMBH",
   resume:
-    "https://drive.google.com/uc?export=download&id=1MYP21ui9vxBt60p42wlrGSOYfwvCfwmd",
-  linkedin: "www.linkedin.com/in/mohamedbahirhussain",
+    "https://drive.google.com/uc?export=download&id=1j6hv5EQdraSNhcVOA-MqsyI58wjzDAxP",
+  linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
   twitter: "https://x.com/bahirhussain1",
   insta: "https://www.instagram.com/bahir_hussain_thaj/",
   facebook: "https://web.facebook.com/mohamedbahir.hussainthaj.9",
@@ -302,6 +303,14 @@ export const projects = [
     github:
       "https://github.com/HussainMBH/Chat-and-Image-Upload-and-check-Spring-Boot-Vertex-AI-with-Gemini-AI-Integration-API-Function",
     webapp: "https://github.com/HussainMBH/Chat-and-Image-Upload-and-check-Spring-Boot-Vertex-AI-with-Gemini-AI-Integration-API-Function",
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 3,
@@ -322,6 +331,14 @@ export const projects = [
     github:
       "https://github.com/HussainMBH/Chatting-and-Image-Analyzing-with-Gemini-AI-Integrating-developed-by-ReactJS-and-Redux",
     webapp: "https://mbhaichat.netlify.app/",
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 4,
@@ -341,6 +358,14 @@ export const projects = [
     category: ["web app", "springboot application"],
     github: "https://github.com/HussainMBH/work-flow-system-final-project",
     webapp: "www.linkedin.com/in/mohamedbahirhussain",
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 5,
@@ -353,6 +378,14 @@ export const projects = [
     github:
       "https://github.com/HussainMBH/Chat-and-Image-Upload-and-check-Spring-Boot-Vertex-AI-with-Gemini-AI-Integration-API-Function",
     webapp: "www.linkedin.com/in/mohamedbahirhussain",
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 6,
@@ -365,6 +398,14 @@ export const projects = [
     github:
       "https://github.com/HussainMBH/Campus_Management_Website_Using_VueJs_and_Firebase",
     webapp: "https://naascampus.com",
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 7,
@@ -382,6 +423,14 @@ export const projects = [
     github:
       "https://github.com/HussainMBH/Speech_Recognition_App_in_ReactJS_with_Copy_to_Clipboard_Functionality",
     webapp: "https://mbhvoicetotext.netlify.app",
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 8,
@@ -395,6 +444,14 @@ export const projects = [
       "https://github.com/HussainMBH/Office_desk_Reservation_System_using_Typescript",
     webapp:
       "https://www.linkedin.com/posts/mohamedbahirhussain_im-happy-to-share-this-office-desk-booking-activity-7201580766730883073-ol6h?utm_source=share&utm_medium=member_desktop",
+      developer: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
   {
     id: 9,
@@ -409,6 +466,14 @@ export const projects = [
       "https://github.com/HussainMBH/Fuel_Filling_Station_System_Project_developed_by_Java",
     webapp:
       "https://github.com/HussainMBH/Fuel_Filling_Station_System_Project_developed_by_Java",
+      developer: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
   {
     id: 10,
@@ -423,6 +488,14 @@ export const projects = [
       "https://github.com/HussainMBH/Car_Rental_System_Developed_by_Java_OOP_Concepts",
     webapp:
       "https://github.com/HussainMBH/Car_Rental_System_Developed_by_Java_OOP_Concepts",
+      developer: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
   {
     id: 11,
@@ -437,6 +510,14 @@ export const projects = [
       "https://github.com/HussainMBH/atm_bank_system",
     webapp:
       "https://github.com/HussainMBH/atm_bank_system",
+      developer: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
   {
     id: 12,
@@ -451,6 +532,14 @@ export const projects = [
       "https://github.com/HussainMBH/Cash_Recycler_Machine_project_developed_by_Java",
     webapp:
       "https://github.com/HussainMBH/Cash_Recycler_Machine_project_developed_by_Java",
+      developer: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
   {
     id: 13,
@@ -462,7 +551,15 @@ export const projects = [
     tags: ["Java", "OOP Concept", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "Banking Application"],
     category: ["springboot application", "web app"],
     github: "https://github.com/HussainMBH/Banking_Application_developed_by_Java_SpringBoot_SpringData_JPA_Hibernate_MySQL",
-    webapp: "https://github.com/HussainMBH/Banking_Application_developed_by_Java_SpringBoot_SpringData_JPA_Hibernate_MySQL"
+    webapp: "https://github.com/HussainMBH/Banking_Application_developed_by_Java_SpringBoot_SpringData_JPA_Hibernate_MySQL",
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
 ];
 
@@ -481,6 +578,14 @@ export const blogs = [
     ],
     bloglink:
       "https://medium.com/@mohamedbahirhussain/navigating-the-full-stack-development-internship-interview-a-personal-experience-f6c0c633b034",
+      bloger: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
   {
     id: 15,
@@ -495,6 +600,14 @@ export const blogs = [
     ],
     bloglink:
       "https://mohamedbahirhussain.medium.com/simplifying-real-time-website-development-with-vue-js-firebase-and-firecms-3a4f451404ca",
+      bloger: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
   {
     id: 16,
@@ -509,6 +622,14 @@ export const blogs = [
     ],
     bloglink:
       "https://mohamedbahirhussain.medium.com/understanding-r-d-in-software-product-development-112dfa56575a",
+      bloger: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
   {
     id: 17,
@@ -523,6 +644,14 @@ export const blogs = [
     ],
     bloglink:
       "https://mohamedbahirhussain.medium.com/springboot-hibernate-framework-3f8bdf14e9bf",
+      bloger: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
   {
     id: 18,
@@ -538,8 +667,39 @@ export const blogs = [
     ],
     bloglink:
       "https://mohamedbahirhussain.medium.com/springboot-hibernate-framework-3f8bdf14e9bf",
+      bloger: [
+        {
+          name: "Mohamed Bahir Hussain",
+          img: "mohamedbahirhussain.jpeg",
+          github: "https://github.com/HussainMBH",
+          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+        },
+      ],
   },
 ];
+
+export const vlogs = [
+  {
+    id: 19,
+    title: "Naas Campus Management System",
+    description: [
+      "I am thrilled to announce the successful development of a dynamic campus website for one of our esteemed clients. This project has been a collaborative effort, utilizing cutting-edge technologies including Vue.js, Sanity CMS, and cloud storage solutions to create a seamless user experience."
+    ],
+    image: "https://img.youtube.com/vi/_Js7xi9_Qkc/hqdefault.jpg",
+    vloglink: "https://www.youtube.com/watch?v=_Js7xi9_Qkc",
+    date: "2024-09-07",
+    tags: ["VueJS", "Firebase", "FireCMS", "MySQl", "NodeJS"],
+    vloger: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
+  },
+];
+
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
