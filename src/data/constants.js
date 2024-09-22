@@ -345,7 +345,7 @@ export const projects = [
     title: "WORKFLOW System",
     description:
       "There have parcel sending and tracking system end to end for customer’s trust. In this project, I add a crud function for branches, employees and parcels. Each parcel has a unique tracking number, I added this function using a few algorithms. Have a check tracking number system, a report view and a print function system. It has two login users, one for admin and a second for company employees.",
-    image: "jobit.png",
+    image: "workflow.jpg",
     tags: [
       "Spring Boot",
       "Vertex AI",
