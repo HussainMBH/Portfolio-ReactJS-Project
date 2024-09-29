@@ -246,7 +246,7 @@ export const experiences = [
     id: 0,
     img: "/colombomail.png",
     role: "Financial Solutions Developer",
-    company: "Freelancer",
+    company: "Colombo Mail",
     date: "Nov 2022 - Mar 2024",
     desc: [
       "Bill Payment and Data Management system, streamlining financial processes and ensuring accurate record-keeping.",
@@ -256,11 +256,9 @@ export const experiences = [
     ],
     skills: [
       "Java",
-      "JavaSE",
+      "Spring Boot",
       "Hibernate",
       "JDBC",
-      "JavaMail",
-      "JavaFX",
       "MySQL",
     ],
   },
