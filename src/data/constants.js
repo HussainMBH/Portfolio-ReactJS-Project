@@ -225,7 +225,7 @@ export const experiences = [
     img: "/codechainwithdescription.png",
     role: "Founder & Chief Executive Officer",
     company: "CodeChain Labs",
-    date: "Mar 2023 - Present",
+    //date: "Mar 2023 - Present",
     desc: "I am passionate about my work as a freelance software developer and the journey it has taken me on. Through various projects, I have immersed myself in cutting-edge technologies and have enjoyed creating innovative solutions for my clients. Real Client Projects: Developed websites and applications featuring full-fledged CMS, online payment integration, and SEO enhancements. Academic Support: Assisted college students with final year projects, turning their concepts into practical applications. R&D: Engaged in continuous research and integration of new IT technologies to keep projects ahead of the curve. API and AI Integration: Leveraged APIs and integrated AI to develop smart, intuitive applications. Content Writing: Shared knowledge through technical writing and tutorials.",
     skills: [
       "Java",
@@ -245,9 +245,9 @@ export const experiences = [
   {
     id: 0,
     img: "/colombomail.png",
-    role: "Financial Solutions Developer",
+    role: "Trainee Backend Developer",
     company: "Colombo Mail",
-    date: "Nov 2022 - Mar 2024",
+    //date: "Nov 2022 - Mar 2024",
     desc: [
       "Bill Payment and Data Management system, streamlining financial processes and ensuring accurate record-keeping.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
