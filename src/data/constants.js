@@ -41,8 +41,7 @@ export const skills = [
       },
       {
         name: "Vue Js",
-        image:
-          "/vuejs.png",
+        image: "/vuejs.png",
       },
       {
         name: "HTML",
@@ -221,6 +220,31 @@ export const skills = [
 
 export const experiences = [
   {
+    id: 1,
+    img: "/colombomail.png",
+    role: "Website Developer",
+    company: "Naas Campus",
+    //date: "Nov 2022 - Mar 2024",
+    desc: [
+      "I designed and developed a dynamic campus website using Vue.js, FireCMS, Firebase, and cloud storage solutions, integrating several key features to enhance functionality and user experience. The project included a secure and efficient online payment system, a dynamic student registration process to simplify enrollment, and real-time notifications to automate updates for students about campus events and announcements. Additionally, I implemented SEO optimization to boost search engine rankings and improve visibility, along with admin customization options to allow administrators to easily update campus details. This high-quality, scalable solution significantly improved campus operational efficiency and provided an enhanced user experience.",
+    ],
+    skills: ["Vue JS", "FireCMS", "Firebase", "API Development", "MySQL", "Agile Web Development"],
+  },
+  {
+    id: 1,
+    img: "/colombomail.png",
+    role: "Trainee Backend Developer",
+    company: "Colombo Mail",
+    //date: "Nov 2022 - Mar 2024",
+    desc: [
+      "Developed API for Bill Payment and Data Management system, streamlining financial processes and ensuring accurate record-keeping.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+    skills: ["Java", "Spring Boot", "Hibernate", "JDBC", "MySQL"],
+  },
+  {
     id: 0,
     img: "/codechainwithdescription.png",
     role: "Founder & Chief Executive Officer",
@@ -240,26 +264,6 @@ export const experiences = [
       "Content Writing",
       "AI Integration",
       "API Development",
-    ],
-  },
-  {
-    id: 0,
-    img: "/colombomail.png",
-    role: "Trainee Backend Developer",
-    company: "Colombo Mail",
-    //date: "Nov 2022 - Mar 2024",
-    desc: [
-      "Developed API for Bill Payment and Data Management system, streamlining financial processes and ensuring accurate record-keeping.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-    skills: [
-      "Java",
-      "Spring Boot",
-      "Hibernate",
-      "JDBC",
-      "MySQL",
     ],
   },
 ];
@@ -286,7 +290,6 @@ export const education = [
 ];
 
 export const projects = [
-  
   {
     id: 2,
     title: "Gemini AI Integration System",
@@ -305,7 +308,8 @@ export const projects = [
     category: ["web app", "ai app", "springboot application"],
     github:
       "https://github.com/HussainMBH/Chat-and-Image-Upload-and-check-Spring-Boot-Vertex-AI-with-Gemini-AI-Integration-API-Function",
-    webapp: "https://github.com/HussainMBH/Chat-and-Image-Upload-and-check-Spring-Boot-Vertex-AI-with-Gemini-AI-Integration-API-Function",
+    webapp:
+      "https://github.com/HussainMBH/Chat-and-Image-Upload-and-check-Spring-Boot-Vertex-AI-with-Gemini-AI-Integration-API-Function",
     developer: [
       {
         name: "Mohamed Bahir Hussain",
@@ -349,12 +353,7 @@ export const projects = [
     description:
       "There have parcel sending and tracking system end to end for customer’s trust. In this project, I add a crud function for branches, employees and parcels. Each parcel has a unique tracking number, I added this function using a few algorithms. Have a check tracking number system, a report view and a print function system. It has two login users, one for admin and a second for company employees.",
     image: "workflow.jpg",
-    tags: [
-      "PHP",
-      "MySQL",
-      "Postman API Testing",
-      "JavaScript",
-    ],
+    tags: ["PHP", "MySQL", "Postman API Testing", "JavaScript"],
     category: ["web app", "springboot application"],
     github: "https://github.com/HussainMBH/work-flow-system-final-project",
     webapp: "www.linkedin.com/in/mohamedbahirhussain",
@@ -444,14 +443,14 @@ export const projects = [
       "https://github.com/HussainMBH/Office_desk_Reservation_System_using_Typescript",
     webapp:
       "https://www.linkedin.com/posts/mohamedbahirhussain_im-happy-to-share-this-office-desk-booking-activity-7201580766730883073-ol6h?utm_source=share&utm_medium=member_desktop",
-      developer: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 9,
@@ -466,14 +465,14 @@ export const projects = [
       "https://github.com/HussainMBH/Fuel_Filling_Station_System_Project_developed_by_Java",
     webapp:
       "https://github.com/HussainMBH/Fuel_Filling_Station_System_Project_developed_by_Java",
-      developer: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 10,
@@ -482,20 +481,26 @@ export const projects = [
       "The Car Rental Project is a Java-based application designed using object-oriented programming (OOP) principles. It streamlines the process of renting vehicles, offering features like booking management, vehicle inventory, and customer profiles. The project emphasizes modular design, encapsulation, inheritance, and polymorphism to ensure a robust and scalable system.",
     ],
     image: "carrentalproject.png",
-    tags: ["Java", "OOP Concept", "Car Rental", "Booking Management", "Vehicle Inventory"],
+    tags: [
+      "Java",
+      "OOP Concept",
+      "Car Rental",
+      "Booking Management",
+      "Vehicle Inventory",
+    ],
     category: "core application",
     github:
       "https://github.com/HussainMBH/Car_Rental_System_Developed_by_Java_OOP_Concepts",
     webapp:
       "https://github.com/HussainMBH/Car_Rental_System_Developed_by_Java_OOP_Concepts",
-      developer: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 11,
@@ -504,20 +509,25 @@ export const projects = [
       "The ATM Bank Project is a Java application built using object-oriented programming (OOP) principles to simulate ATM transactions and banking operations. It provides functionalities such as account management, balance inquiries, fund transfers, and transaction history, all while ensuring secure and reliable interactions. The project utilizes OOP concepts like encapsulation, inheritance, and polymorphism to create a modular, maintainable, and extensible system.",
     ],
     image: "atmproject.jpg",
-    tags: ["Java", "OOP Concept", "ATM Simulation", "Cash Management", "Bank Transactions", "Account Management"],
+    tags: [
+      "Java",
+      "OOP Concept",
+      "ATM Simulation",
+      "Cash Management",
+      "Bank Transactions",
+      "Account Management",
+    ],
     category: "core application",
-    github:
-      "https://github.com/HussainMBH/atm_bank_system",
-    webapp:
-      "https://github.com/HussainMBH/atm_bank_system",
-      developer: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    github: "https://github.com/HussainMBH/atm_bank_system",
+    webapp: "https://github.com/HussainMBH/atm_bank_system",
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 12,
@@ -526,32 +536,48 @@ export const projects = [
       "The Cash Recycler project is a Java-based application developed using object-oriented programming (OOP) concepts. It automates the process of accepting, counting, and dispensing cash, ensuring accurate and efficient cash management for banks or retail environments. The project leverages OOP principles like encapsulation, inheritance, and polymorphism to create a modular and scalable system that handles various denominations and transaction types.",
     ],
     image: "cashrecyclerproject.png",
-    tags: ["Java", "OOP Concept", "Cash Recycler", "Cash Management", "Transaction Automation"],
+    tags: [
+      "Java",
+      "OOP Concept",
+      "Cash Recycler",
+      "Cash Management",
+      "Transaction Automation",
+    ],
     category: ["core application"],
     github:
       "https://github.com/HussainMBH/Cash_Recycler_Machine_project_developed_by_Java",
     webapp:
       "https://github.com/HussainMBH/Cash_Recycler_Machine_project_developed_by_Java",
-      developer: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    developer: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 13,
     title: "Banking Application Project",
     description: [
-      "The Banking Application is a Java-based project developed with Spring Boot, Spring Data JPA, Hibernate, and MySQL, utilizing object-oriented programming (OOP) principles. It provides comprehensive banking functionalities, including account management, transaction processing, and customer services, ensuring a secure and efficient banking experience. The application leverages OOP concepts such as encapsulation, inheritance, and polymorphism to create a scalable and maintainable system with robust data handling and business logic."
+      "The Banking Application is a Java-based project developed with Spring Boot, Spring Data JPA, Hibernate, and MySQL, utilizing object-oriented programming (OOP) principles. It provides comprehensive banking functionalities, including account management, transaction processing, and customer services, ensuring a secure and efficient banking experience. The application leverages OOP concepts such as encapsulation, inheritance, and polymorphism to create a scalable and maintainable system with robust data handling and business logic.",
     ],
     image: "banksystemproject.png",
-    tags: ["Java", "OOP Concept", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "Banking Application"],
+    tags: [
+      "Java",
+      "OOP Concept",
+      "Spring Boot",
+      "Spring Data JPA",
+      "Hibernate",
+      "MySQL",
+      "Banking Application",
+    ],
     category: ["springboot application", "web app"],
-    github: "https://github.com/HussainMBH/Banking_Application_developed_by_Java_SpringBoot_SpringData_JPA_Hibernate_MySQL",
-    webapp: "https://github.com/HussainMBH/Banking_Application_developed_by_Java_SpringBoot_SpringData_JPA_Hibernate_MySQL",
+    github:
+      "https://github.com/HussainMBH/Banking_Application_developed_by_Java_SpringBoot_SpringData_JPA_Hibernate_MySQL",
+    webapp:
+      "https://github.com/HussainMBH/Banking_Application_developed_by_Java_SpringBoot_SpringData_JPA_Hibernate_MySQL",
     developer: [
       {
         name: "Mohamed Bahir Hussain",
@@ -564,55 +590,52 @@ export const projects = [
 ];
 
 export const blogs = [
-  
   {
     id: 14,
-    title: "Navigating the Full Stack Development Internship Interview: A Personal Experience.",
-    description:["Embarking on the journey of securing an internship in full-stack development can be both exhilarating and nerve-wracking. Recently, I had the opportunity to sit through one such interview, and the experience was enlightening, to say the least. In this article, I’ll share my firsthand encounter, shedding light on the types of questions asked and how I navigated through them. As a student specializing in full-stack development with a focus on React JS and Java, I was eager yet uncertain about what lay ahead in the interview room. The realm of full-stack development is vast, and the questions posed could range from basic concepts to intricate problem-solving scenarios. I’ll share everything step by step, first I’m sharing about the OOP Concept and its short explanation."],
-    image: "prepartioninterview.png",
-    tags: [
-      "SOftware Engineer",
-      "Internship",
-      "OOP Concept",
-      "Full Stack",
+    title:
+      "Navigating the Full Stack Development Internship Interview: A Personal Experience.",
+    description: [
+      "Embarking on the journey of securing an internship in full-stack development can be both exhilarating and nerve-wracking. Recently, I had the opportunity to sit through one such interview, and the experience was enlightening, to say the least. In this article, I’ll share my firsthand encounter, shedding light on the types of questions asked and how I navigated through them. As a student specializing in full-stack development with a focus on React JS and Java, I was eager yet uncertain about what lay ahead in the interview room. The realm of full-stack development is vast, and the questions posed could range from basic concepts to intricate problem-solving scenarios. I’ll share everything step by step, first I’m sharing about the OOP Concept and its short explanation.",
     ],
+    image: "prepartioninterview.png",
+    tags: ["SOftware Engineer", "Internship", "OOP Concept", "Full Stack"],
     bloglink:
       "https://medium.com/@mohamedbahirhussain/navigating-the-full-stack-development-internship-interview-a-personal-experience-f6c0c633b034",
-      bloger: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    bloger: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 15,
-    title: "Simplifying Real-Time Website Development with Vue.js, Firebase, and FireCMS",
-    description:["In today’s fast-paced digital landscape, the demand for dynamic and real-time websites is ever-growing. Developers are constantly seeking efficient solutions to streamline the development process without compromising on functionality and performance. Enter Vue.js, Firebase, and FireCMS — a powerful trio that empowers developers to create responsive and real-time websites with ease. In this article, I’ll explore how combining Vue.js, a progressive JavaScript framework, with Firebase, Google’s mobile and web application development platform, and FireCMS, an open-source headless CMS specifically designed for Firebase, can significantly simplify the process of building real-time websites."],
-    image: "vuefirebase.png",
-    tags: [
-      "VueJS",
-      "Firebase",
-      "FireCMS",
-      "Website Development",
+    title:
+      "Simplifying Real-Time Website Development with Vue.js, Firebase, and FireCMS",
+    description: [
+      "In today’s fast-paced digital landscape, the demand for dynamic and real-time websites is ever-growing. Developers are constantly seeking efficient solutions to streamline the development process without compromising on functionality and performance. Enter Vue.js, Firebase, and FireCMS — a powerful trio that empowers developers to create responsive and real-time websites with ease. In this article, I’ll explore how combining Vue.js, a progressive JavaScript framework, with Firebase, Google’s mobile and web application development platform, and FireCMS, an open-source headless CMS specifically designed for Firebase, can significantly simplify the process of building real-time websites.",
     ],
+    image: "vuefirebase.png",
+    tags: ["VueJS", "Firebase", "FireCMS", "Website Development"],
     bloglink:
       "https://mohamedbahirhussain.medium.com/simplifying-real-time-website-development-with-vue-js-firebase-and-firecms-3a4f451404ca",
-      bloger: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    bloger: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 16,
     title: "Understanding R&D in Software Product Development",
-    description:["In software, research and development (R&D) combines the study of innovative technologies, techniques, and market trends with the creation of prototypes, tools, or features derived from this research."],
+    description: [
+      "In software, research and development (R&D) combines the study of innovative technologies, techniques, and market trends with the creation of prototypes, tools, or features derived from this research.",
+    ],
     image: "r&d.png",
     tags: [
       "Research & Development",
@@ -622,41 +645,40 @@ export const blogs = [
     ],
     bloglink:
       "https://mohamedbahirhussain.medium.com/understanding-r-d-in-software-product-development-112dfa56575a",
-      bloger: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    bloger: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 17,
     title: "Springboot Hibernate Framework",
-    description:["In software, research and development (R&D) combines the study of innovative technologies, techniques, and market trends with the creation of prototypes, tools, or features derived from this research."],
-    image: "springhibernate.jpg",
-    tags: [
-      "Spring Boot",
-      "Hibernate",
-      "JPA",
-      "Software Development",
+    description: [
+      "In software, research and development (R&D) combines the study of innovative technologies, techniques, and market trends with the creation of prototypes, tools, or features derived from this research.",
     ],
+    image: "springhibernate.jpg",
+    tags: ["Spring Boot", "Hibernate", "JPA", "Software Development"],
     bloglink:
       "https://mohamedbahirhussain.medium.com/springboot-hibernate-framework-3f8bdf14e9bf",
-      bloger: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    bloger: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
   {
     id: 18,
     title: "Spring Boot — Project Structure Practices",
-    description:["In this article, I am going to talk about package structures for Spring Boot applications and give the one I create whenever I started a new project. Proper packaging in a project is important because when the project grows or someone else is assigned to your project, it must be easy to get around different kind of files. For example, when you need a file of type model, you just directly go into the model package and easily find what you are looking for. If you do no have such a structure, it becomes a time-consuming problem in large projects."],
+    description: [
+      "In this article, I am going to talk about package structures for Spring Boot applications and give the one I create whenever I started a new project. Proper packaging in a project is important because when the project grows or someone else is assigned to your project, it must be easy to get around different kind of files. For example, when you need a file of type model, you just directly go into the model package and easily find what you are looking for. If you do no have such a structure, it becomes a time-consuming problem in large projects.",
+    ],
     image: "projectstructure.png",
     tags: [
       "Spring Boot",
@@ -667,14 +689,14 @@ export const blogs = [
     ],
     bloglink:
       "https://mohamedbahirhussain.medium.com/springboot-hibernate-framework-3f8bdf14e9bf",
-      bloger: [
-        {
-          name: "Mohamed Bahir Hussain",
-          img: "mohamedbahirhussain.jpeg",
-          github: "https://github.com/HussainMBH",
-          linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
-        },
-      ],
+    bloger: [
+      {
+        name: "Mohamed Bahir Hussain",
+        img: "mohamedbahirhussain.jpeg",
+        github: "https://github.com/HussainMBH",
+        linkedin: "https://www.linkedin.com/in/mohamedbahirhussain/",
+      },
+    ],
   },
 ];
 
@@ -683,7 +705,7 @@ export const vlogs = [
     id: 19,
     title: "Naas Campus Management System",
     description: [
-      "I am thrilled to announce the successful development of a dynamic campus website for one of our esteemed clients. This project has been a collaborative effort, utilizing cutting-edge technologies including Vue.js, Sanity CMS, and cloud storage solutions to create a seamless user experience."
+      "I am thrilled to announce the successful development of a dynamic campus website for one of our esteemed clients. This project has been a collaborative effort, utilizing cutting-edge technologies including Vue.js, Sanity CMS, and cloud storage solutions to create a seamless user experience.",
     ],
     image: "https://img.youtube.com/vi/_Js7xi9_Qkc/hqdefault.jpg",
     vloglink: "https://www.youtube.com/watch?v=_Js7xi9_Qkc",
@@ -699,7 +721,6 @@ export const vlogs = [
     ],
   },
 ];
-
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
