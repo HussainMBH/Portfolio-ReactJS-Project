@@ -224,7 +224,7 @@ export const experiences = [
     img: "/colombomail.png",
     role: "Website Developer",
     company: "Naas Campus",
-    //date: "Nov 2022 - Mar 2024",
+    emptype: "Contract",
     desc: [
       "I designed and developed a dynamic campus website using Vue.js, FireCMS, Firebase, and cloud storage solutions, integrating several key features to enhance functionality and user experience. The project included a secure and efficient online payment system, a dynamic student registration process to simplify enrollment, and real-time notifications to automate updates for students about campus events and announcements. Additionally, I implemented SEO optimization to boost search engine rankings and improve visibility, along with admin customization options to allow administrators to easily update campus details. This high-quality, scalable solution significantly improved campus operational efficiency and provided an enhanced user experience.",
     ],
@@ -235,7 +235,7 @@ export const experiences = [
     img: "/colombomail.png",
     role: "Trainee Backend Developer",
     company: "Colombo Mail",
-    //date: "Nov 2022 - Mar 2024",
+    emptype: "Full-time",
     desc: [
       "Developed API for Bill Payment and Data Management system, streamlining financial processes and ensuring accurate record-keeping.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -249,7 +249,7 @@ export const experiences = [
     img: "/codechainwithdescription.png",
     role: "Founder & Chief Executive Officer",
     company: "CodeChain Labs",
-    //date: "Mar 2023 - Present",
+    emptype: "Freelance",
     desc: "I am passionate about my work as a freelance software developer and the journey it has taken me on. Through various projects, I have immersed myself in cutting-edge technologies and have enjoyed creating innovative solutions for my clients. Real Client Projects: Developed websites and applications featuring full-fledged CMS, online payment integration, and SEO enhancements. Academic Support: Assisted college students with final year projects, turning their concepts into practical applications. R&D: Engaged in continuous research and integration of new IT technologies to keep projects ahead of the curve. API and AI Integration: Leveraged APIs and integrated AI to develop smart, intuitive applications. Content Writing: Shared knowledge through technical writing and tutorials.",
     skills: [
       "Java",
