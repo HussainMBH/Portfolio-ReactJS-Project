@@ -221,7 +221,7 @@ export const skills = [
 export const experiences = [
   {
     id: 1,
-    img: "/colombomail.png",
+    img: "/Naascampus.jpeg",
     role: "Website Developer",
     company: "Naas Campus",
     emptype: "Contract",
