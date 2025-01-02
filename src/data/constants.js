@@ -240,7 +240,7 @@ export const experiences = [
   {
     id: 2,
     img: "/colombomail.png",
-    role: "Trainee Backend Developer",
+    role: "Associate Software Engineer",
     company: "Colombo Mail",
     emptype: "Full-time",
     desc: [
