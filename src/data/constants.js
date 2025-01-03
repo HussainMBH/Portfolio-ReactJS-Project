@@ -252,6 +252,20 @@ export const experiences = [
     skills: ["Java", "Spring Boot", "Hibernate", "JDBC", "MySQL"],
   },
   {
+    id: 2,
+    img: "/colombomail.png",
+    role: "Junior Software Engineer",
+    company: "Colombo Mail",
+    emptype: "Full-time",
+    desc: [
+      "Developed API for Bill Payment and Data Management system, streamlining financial processes and ensuring accurate record-keeping.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+    skills: ["Java", "Spring Boot", "Hibernate", "JDBC", "MySQL"],
+  },
+  {
     id: 1,
     img: "/colombomail.png",
     role: "Application Administrator & Financial Solution Developer",
