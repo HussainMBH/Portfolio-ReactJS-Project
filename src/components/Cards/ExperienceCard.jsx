@@ -118,6 +118,14 @@ const Employeetype = styled.div`
         font-size: 10px;
     }
 `
+const Location = styled.div`
+    font-size: 12px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_secondary + 80};
+    @media only screen and (max-width: 768px){
+        font-size: 10px;
+    }
+`
 
 
 const Skills = styled.div`
@@ -153,6 +161,7 @@ const ExperienceCard = ({ experience }) => {
                     <Role>{experience.role}</Role>
                     <Company>{experience.company}</Company>
                     <Employeetype>{experience.emptype}</Employeetype>
+                    <Location>{experience.location}</Location>
                 </Body>
             </Top>
             <Description>
