@@ -242,7 +242,7 @@ export const experiences = [
     img: "/colombomail.png",
     role: "Associate Software Engineer",
     company: "Colombo Mail",
-    emptype: "Colombo, Western Province, Sri Lanka · On-site · Full-time",
+    emptype: "Dubai, United Arab Emirates · Full-time",
     desc: [
       "Developed API for Bill Payment and Data Management system, streamlining financial processes and ensuring accurate record-keeping.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -256,7 +256,7 @@ export const experiences = [
     img: "/colombomail.png",
     role: "Junior Software Engineer",
     company: "Colombo Mail",
-    emptype: "Dubai, United Arab Emirates · Remote",
+    emptype: "Dubai, United Arab Emirates · Full-time",
     desc: [
       "Developed API for Bill Payment and Data Management system, streamlining financial processes and ensuring accurate record-keeping.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
