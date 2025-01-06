@@ -24,6 +24,13 @@ const Description = styled.div`
     }
 `
 
+const Title = styled.div`
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(220, 220, 220);
+    margin-bottom: 5px;
+`
+
 const Span = styled.span`
 overflow: hidden;
 display: -webkit-box;
@@ -91,7 +98,6 @@ const Body = styled.div`
     flex-direction: column; 
 `
 
-
 const Role = styled.div`
     font-size: 18px;
     font-weight: 600;
@@ -127,7 +133,6 @@ const Location = styled.div`
     }
 `
 
-
 const Skills = styled.div`
     width: 100%;
     display: flex;
@@ -150,8 +155,6 @@ const Skill = styled.div`
     }
 `
 
-
-
 const ExperienceCard = ({ experience }) => {
     return (
         <Card>
@@ -165,18 +168,20 @@ const ExperienceCard = ({ experience }) => {
                 </Body>
             </Top>
             <Description>
-                {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
-
+                {experience?.desc && 
+                    <>
+                        <Title>Description</Title>
+                        <Span>{experience?.desc}</Span>
+                    </>
                 }
-                {experience?.skills &&
+                {experience?.skills && 
                     <>
                         <br />
                         <Skills>
                             <b>Skills:</b>
                             <ItemWrapper>
                                 {experience?.skills?.map((skill, index) => (
-                                    <Skill>• {skill}</Skill>
+                                    <Skill key={index}>• {skill}</Skill>
                                 ))}
                             </ItemWrapper>
                         </Skills>
