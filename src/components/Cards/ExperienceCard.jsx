@@ -138,6 +138,7 @@ const Skills = styled.div`
     display: flex;
     gap: 12px;
     margin-top: -10px;
+    color:rgb(220, 220, 220);
 `
 
 const ItemWrapper = styled.div`
