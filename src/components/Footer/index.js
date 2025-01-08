@@ -104,7 +104,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Mohamed Bahir Hussain. All rights reserved.
+          &copy; 2022 Mohamed Bahir Hussain. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
