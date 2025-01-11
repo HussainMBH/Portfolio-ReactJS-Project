@@ -242,19 +242,31 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: "/colombomail.png",
-    role: "Associate Software Engineer",
-    company: "Colombo Mail",
-    emptype: "Dubai, United Arab Emirates · Full-time",
-    desc: [
-      "Developed API for Bill Payment and Data Management system, streamlining financial processes and ensuring accurate record-keeping.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+    "id": 2,
+    "img": "/colombomail.png",
+    "role": "Associate Software Engineer",
+    "company": "Colombo Mail",
+    "emptype": "Dubai, United Arab Emirates · Full-time",
+    "desc": [
+      "Contributed to the design, development, and maintenance of innovative web solutions, including a Parcel Tracking System, E-commerce Platform, and Workflow Management System.",
+      "Developed a Parcel Tracking System with real-time location updates, secure OTP-based verification, customer chat interface, and an interactive user dashboard.",
+      "Built an E-commerce Platform enabling the sale of foreign products with secure bank card payments and an intuitive user interface for seamless shopping.",
+      "Created a Workflow Management System with task management, real-time notifications, and interactive dashboards for enhanced staff communication and operational efficiency.",
+      "Implemented modern technologies and design patterns such as MVC, Singleton, and microservices architecture for scalability and resilience."
     ],
-    skills: ["Java", "Spring Boot", "Hibernate", "JDBC", "MySQL"],
-  },
+    "skills": [
+      "Java", 
+      "Spring Boot", 
+      "Vue.js", 
+      "REST APIs", 
+      "MySQL", 
+      "PostgreSQL", 
+      "Docker", 
+      "Jenkins", 
+      "AWS"
+    ]
+  }
+  ,
   {
     id: 2,
     img: "/colombomail.png",
