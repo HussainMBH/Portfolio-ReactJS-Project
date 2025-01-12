@@ -105,6 +105,7 @@ const Role = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 14px;
     }
+    color:rgb(220, 220, 220);
 `
 
 const Company = styled.div`
@@ -114,6 +115,7 @@ const Company = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 12px;
     }
+    color:rgb(220, 220, 220);
 `
 
 const Employeetype = styled.div`
@@ -123,6 +125,7 @@ const Employeetype = styled.div`
     @media only screen and (max-width: 768px){
         font-size: 10px;
     }
+    color:rgb(220, 220, 220);
 `
 const Location = styled.div`
     font-size: 12px;
