@@ -224,24 +224,6 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 3,
-    img: "/Naascampus.jpeg",
-    role: "Website Developer",
-    company: "Naas Campus",
-    emptype: "Colombo - Contract",
-    desc: [
-      "I designed and developed a dynamic campus website using Vue.js, FireCMS, Firebase, and cloud storage solutions, integrating several key features to enhance functionality and user experience. The project included a secure and efficient online payment system, a dynamic student registration process to simplify enrollment, and real-time notifications to automate updates for students about campus events and announcements. Additionally, I implemented SEO optimization to boost search engine rankings and improve visibility, along with admin customization options to allow administrators to easily update campus details. This high-quality, scalable solution significantly improved campus operational efficiency and provided an enhanced user experience.",
-    ],
-    skills: [
-      "Vue JS",
-      "FireCMS",
-      "Firebase",
-      "API Development",
-      "MySQL",
-      "Agile Web Development",
-    ],
-  },
-  {
     "id": 2,
     "img": "/colombomail.png",
     "role": "Associate Software Engineer",
@@ -291,6 +273,24 @@ export const experiences = [
       "At ColomboMail, I managed website operations, ensuring seamless functionality and user experience, while also spearheading the development of financial solutions. My contributions included designing and implementing a comprehensive bill payment and data management system, automating workflows, and enhancing transaction accuracy and reporting. This role allowed me to merge technical expertise with problem-solving to streamline operations and drive efficiency.",
     ],
     skills: ["Website Administration", "Financial Analysis", "Reporting and Analysis", "Team Building", "Teamwork"],
+  },
+  {
+    id: 3,
+    img: "/Naascampus.jpeg",
+    role: "Website Developer",
+    company: "Naas Campus",
+    emptype: "Colombo - Contract",
+    desc: [
+      "I designed and developed a dynamic campus website using Vue.js, FireCMS, Firebase, and cloud storage solutions, integrating several key features to enhance functionality and user experience. The project included a secure and efficient online payment system, a dynamic student registration process to simplify enrollment, and real-time notifications to automate updates for students about campus events and announcements. Additionally, I implemented SEO optimization to boost search engine rankings and improve visibility, along with admin customization options to allow administrators to easily update campus details. This high-quality, scalable solution significantly improved campus operational efficiency and provided an enhanced user experience.",
+    ],
+    skills: [
+      "Vue JS",
+      "FireCMS",
+      "Firebase",
+      "API Development",
+      "MySQL",
+      "Agile Web Development",
+    ],
   },
   {
     id: 0,
